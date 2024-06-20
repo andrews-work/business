@@ -17,13 +17,13 @@ export const cardData = [
         id: 3,
         iconUrl: "https://img.icons8.com/?size=100&id=AbQym4bgA4nW&format=png&color=FFFFFF",
         title: 'Data Analysis',
-        info: 'asdfasfd asdf asdf asdf asd f',
+        info: 'We use the forefront of data analysis',
     },
     {
         id: 4,
         iconUrl: "https://img.icons8.com/?size=100&id=VKIUg6WAV5qh&format=png&color=FFFFFF",
         title: 'Mobile Apps',
-        info: 'asdfasfd asdf asdf asdf asd f',
+        info: 'We create custom solutions for mobile too',
     },
   ];
   

@@ -10,7 +10,7 @@ const Box: React.FC<CardProps> = ({ info }) => {
   return (
     <div className="flex items-center justify-center px-8">
       <div className="flex">
-        <h1>{info}</h1>
+        <h1 className="text-2xl">{info}</h1>
       </div>
     </div>
   );
