@@ -21,7 +21,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
       <div className="w-[90vw] flex justify-between">
         <div>
           <Link href="/" className="no-underline">
-            <h1 className="text-2xl">it&apos;s technical</h1>
+            <h1 className="text-xl">it&apos;s technical</h1>
           </Link>
         </div>
         <div className="flex">
@@ -31,7 +31,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
             onMouseEnter={() => handleMouseEnter("websites info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-2xl inline-block py-2 hover:border-b hover:border-white">websites</h1>
+            <h1 className="text-xl inline-block py-2 hover:border-b hover:border-white">websites</h1>
           </Link>
           <Link
             href="/scraping"
@@ -39,7 +39,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
             onMouseEnter={() => handleMouseEnter("web scraping info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-2xl inline-block py-2 hover:border-b hover:border-white">web scraping</h1>
+            <h1 className="text-xl inline-block py-2 hover:border-b hover:border-white">web scraping</h1>
           </Link>
           <Link
             href="/data"
@@ -47,7 +47,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
             onMouseEnter={() => handleMouseEnter("data analysis info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-2xl inline-block py-2 hover:border-b hover:border-white">data analysis</h1>
+            <h1 className="text-xl inline-block py-2 hover:border-b hover:border-white">data analysis</h1>
           </Link>
           <Link
             href="/mobile"
@@ -55,7 +55,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
             onMouseEnter={() => handleMouseEnter("mobile apps info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-2xl inline-block py-2 hover:border-b hover:border-white">mobile apps</h1>
+            <h1 className="text-xl inline-block py-2 hover:border-b hover:border-white">mobile apps</h1>
           </Link>
           <Link
             href="/mobile"
@@ -63,13 +63,13 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
             onMouseEnter={() => handleMouseEnter("mobile apps info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-2xl inline-block py-2 hover:border-b hover:border-white">hosting</h1>
+            <h1 className="text-xl inline-block py-2 hover:border-b hover:border-white">hosting</h1>
           </Link>
           <Link
             href="/contact"
             className="px-6 no-underline"
           >
-            <h1 className="text-2xl inline-block py-2 hover:border-b hover:border-white">contact</h1>
+            <h1 className="text-xl inline-block py-2 hover:border-b hover:border-white">contact</h1>
           </Link>
         </div>
       </div>

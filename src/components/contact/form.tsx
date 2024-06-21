@@ -45,23 +45,23 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                 <div className='flex items-center justify-center mt-4'>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="websites" value="websites" checked={service === 'websites'} onChange={handleServiceChange} />
-                        <label htmlFor="websites" className='flex px-2 text-2xl'>Websites</label>
+                        <label htmlFor="websites" className='flex px-2 text-xl'>Websites</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="data-analysis" value="data-analysis" checked={service === 'data-analysis'} onChange={handleServiceChange} />
-                        <label htmlFor="data-analysis" className='flex px-2 text-2xl'>Data Analysis</label>
+                        <label htmlFor="data-analysis" className='flex px-2 text-xl'>Data Analysis</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="hosting" value="hosting" checked={service === 'hosting'} onChange={handleServiceChange} />
-                        <label htmlFor="hosting" className='flex px-2 text-2xl'>Hosting</label>
+                        <label htmlFor="hosting" className='flex px-2 text-xl'>Hosting</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="web-scraping" value="web-scraping" checked={service === 'web-scraping'} onChange={handleServiceChange} />
-                        <label htmlFor="web-scraping" className='flex px-2 text-2xl'>Web Scraping</label>
+                        <label htmlFor="web-scraping" className='flex px-2 text-xl'>Web Scraping</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="mobile-apps" value="mobile-apps" checked={service === 'mobile-apps'} onChange={handleServiceChange} />
-                        <label htmlFor="mobile-apps" className='flex px-2 text-2xl'>Mobile Apps</label>
+                        <label htmlFor="mobile-apps" className='flex px-2 text-xl'>Mobile Apps</label>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                
                 {/* submit */}
                 <div className='mx-6 my-6 flex items-center justify-center mt-4'>
-                    <button type="submit" className='flex w-[25vw] h-[3vh] text-2xl items-center justify-center mt-4 border border-white'>Submit</button>
+                    <button type="submit" className='flex w-[25vw] h-[3vh] text-xl items-center justify-center mt-4 border border-white'>Submit</button>
                 </div>
             </form>
         </div>
