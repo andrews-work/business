@@ -21,7 +21,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
       <div className="w-[90vw] flex justify-between">
         <div>
           <Link href="/" className="no-underline">
-            <h1 className="text-xl">it&apos;s technical</h1>
+            <h1 className="text-xl py-2">it&apos;s technical</h1>
           </Link>
         </div>
         <div className="flex">
