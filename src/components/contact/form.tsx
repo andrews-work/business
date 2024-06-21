@@ -42,7 +42,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                 </div>
 
                 {/* radio boxes */}
-                <div className='flex items-center justify-center mt-4 w-[30vw]'>
+                <div className='flex items-center justify-center mt-4'>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="websites" value="websites" checked={service === 'websites'} onChange={handleServiceChange} />
                         <label htmlFor="websites" className='flex px-1 text-lg'>Websites</label>
