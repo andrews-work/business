@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({ iconUrl, title, onMouseEnter, onMouseLeave 
       onMouseLeave={onMouseLeave}
     >
       <img src={iconUrl} alt="icon" className="h-auto w-auto mb-8" />
-      <h1 className="text-center text-white text-2xl">{title}</h1>
+      <h1 className="text-center text-white text-lg">{title}</h1>
     </div>
   );
 };
