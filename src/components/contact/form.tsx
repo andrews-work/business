@@ -36,7 +36,10 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                     <h1 className='text-4xl'>Bring your idea to life, get in touch now</h1>    
                 </div>
 
-
+                {/* email */}
+                <div className='mx-6 my-6 flex items-center justify-center mt-4'>
+                    <input type="email" id="email" placeholder='email:' className='mx-6 my-6 w-[30vw] h-[3vh] text-white border border-white bg-black text-2xl pl-4' value={email} onChange={handleEmailChange} required />
+                </div>
 
                 {/* radio boxes */}
                 <div className='flex items-center justify-center mt-4'>
@@ -62,19 +65,14 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                     </div>
                 </div>
 
-                {/* email */}
-                <div className='mx-6 my-6 flex items-center justify-center mt-4'>
-                    <input type="email" id="email" placeholder='email:' className='mx-6 my-6 w-[25vw] h-[3vh] text-white border border-white bg-black text-2xl pl-4' value={email} onChange={handleEmailChange} required />
-                </div>
-
                 {/* message */}
                 <div className='mx-6 my-6 flex items-center justify-center mt-4'>
-                    <textarea id="message" placeholder='message' className='mx-6 my-6 w-[25vw] h-[30vh] text-white text-2xl py-4 px-4 border border-white bg-black' value={message} onChange={handleMessageChange} required></textarea>
+                    <textarea id="message" placeholder='message' className='mx-6 my-6 w-[30vw] h-[30vh] text-white text-2xl py-4 px-4 border border-white bg-black' value={message} onChange={handleMessageChange} required></textarea>
                 </div>
                
                 {/* submit */}
                 <div className='mx-6 my-6 flex items-center justify-center mt-4'>
-                    <button type="submit" className='flex w-[25vw] h-[3vh] text-xl items-center justify-center mt-4 border border-white'>Submit</button>
+                    <button type="submit" className='flex w-[30vw] h-[3vh] text-xl items-center justify-center mt-4 border border-white'>Submit</button>
                 </div>
             </form>
         </div>
