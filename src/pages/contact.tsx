@@ -1,21 +1,22 @@
 "use client";
 
 import React, { useState } from "react";
+import '../app/globals.css';
 
 import Header from '@/components/general/header';
 import Footer from '@/components/general/footer';
-import Section1 from '@/components/home/section1';
+import ContactForm from "@/components/contact/form";
 
-const HomePage: React.FC = () => {
+const ContactPage: React.FC = () => {
     const [hoveredInfo, setHoveredInfo] = useState("");
 
     return (
         <>
           <Header setHoveredInfo={setHoveredInfo} />
-          <Section1 hoveredInfo={hoveredInfo} setHoveredInfo={setHoveredInfo} />
+          <ContactForm />
           <Footer />
         </>
     );
 };
 
-export default HomePage;
+export default ContactPage;

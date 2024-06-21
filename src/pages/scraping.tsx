@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
+import '../app/globals.css';
 
 import Header from '@/components/general/header';
 import Footer from '@/components/general/footer';
 import Section1 from '@/components/home/section1';
 
-const HomePage: React.FC = () => {
+const ScrapingPage: React.FC = () => {
     const [hoveredInfo, setHoveredInfo] = useState("");
 
     return (
@@ -18,4 +19,4 @@ const HomePage: React.FC = () => {
     );
 };
 
-export default HomePage;
+export default ScrapingPage;

@@ -26,42 +26,50 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
         </div>
         <div className="flex">
           <Link
-            href="/new"
+            href="/websites"
             className="px-6 no-underline"
             onMouseEnter={() => handleMouseEnter("websites info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-3xl">websites</h1>
+            <h1 className="text-3xl inline-block py-2 hover:border-b hover:border-white">websites</h1>
           </Link>
           <Link
-            href="/new"
+            href="/scraping"
             className="px-6 no-underline"
             onMouseEnter={() => handleMouseEnter("web scraping info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-3xl">web scraping</h1>
+            <h1 className="text-3xl inline-block py-2 hover:border-b hover:border-white">web scraping</h1>
           </Link>
           <Link
-            href="/new"
+            href="/data"
             className="px-6 no-underline"
             onMouseEnter={() => handleMouseEnter("data analysis info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-3xl">data analysis</h1>
+            <h1 className="text-3xl inline-block py-2 hover:border-b hover:border-white">data analysis</h1>
           </Link>
           <Link
-            href="/new"
+            href="/mobile"
             className="px-6 no-underline"
             onMouseEnter={() => handleMouseEnter("mobile apps info")}
             onMouseLeave={handleMouseLeave}
           >
-            <h1 className="text-3xl">mobile apps</h1>
+            <h1 className="text-3xl inline-block py-2 hover:border-b hover:border-white">mobile apps</h1>
           </Link>
           <Link
-            href="/new"
+            href="/mobile"
+            className="px-6 no-underline"
+            onMouseEnter={() => handleMouseEnter("mobile apps info")}
+            onMouseLeave={handleMouseLeave}
+          >
+            <h1 className="text-3xl inline-block py-2 hover:border-b hover:border-white">hosting</h1>
+          </Link>
+          <Link
+            href="/contact"
             className="px-6 no-underline"
           >
-            <h1 className="text-3xl">contact</h1>
+            <h1 className="text-3xl inline-block py-2 hover:border-b hover:border-white">contact</h1>
           </Link>
         </div>
       </div>

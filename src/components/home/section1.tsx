@@ -1,8 +1,8 @@
 // root / sro / components / home / section1 / section1.tsx
 
 import React from "react";
-import Left from "@/components/home/section1/left";
-import Right from "@/components/home/section1/right";
+import Left from "@/components/home/left";
+import Right from "@/components/home/right";
 
 interface Section1Props {
   hoveredInfo: string;
