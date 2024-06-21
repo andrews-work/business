@@ -32,37 +32,39 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
             <form onSubmit={handleSubmit} className="items-center jusitfy-center h-[50vh] w-[50vw]">
 
                 {/* title */}
-                <div className='flex items-center justify-center mt-4'>
+                <div className='flex items-center justify-center mt-4 mb-10'>
                     <h1 className='text-4xl'>Bring your idea to life, get in touch now</h1>    
                 </div>
 
-                {/* email */}
-                <div className='mx-6 my-6 flex items-center justify-center mt-4'>
-                    <input type="email" id="email" placeholder='email:' className='mx-6 my-6 w-[25vw] h-[3vh] text-white border border-white bg-black text-2xl pl-4' value={email} onChange={handleEmailChange} required />
-                </div>
+
 
                 {/* radio boxes */}
                 <div className='flex items-center justify-center mt-4'>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="websites" value="websites" checked={service === 'websites'} onChange={handleServiceChange} />
-                        <label htmlFor="websites" className='flex px-2 text-xl'>Websites</label>
+                        <label htmlFor="websites" className='flex px-2 text-lg'>Websites</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="data-analysis" value="data-analysis" checked={service === 'data-analysis'} onChange={handleServiceChange} />
-                        <label htmlFor="data-analysis" className='flex px-2 text-xl'>Data Analysis</label>
+                        <label htmlFor="data-analysis" className='flex px-2 text-lg'>Data Analysis</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="hosting" value="hosting" checked={service === 'hosting'} onChange={handleServiceChange} />
-                        <label htmlFor="hosting" className='flex px-2 text-xl'>Hosting</label>
+                        <label htmlFor="hosting" className='flex px-2 text-lg'>Hosting</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="web-scraping" value="web-scraping" checked={service === 'web-scraping'} onChange={handleServiceChange} />
-                        <label htmlFor="web-scraping" className='flex px-2 text-xl'>Web Scraping</label>
+                        <label htmlFor="web-scraping" className='flex px-2 text-lg'>Web Scraping</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="mobile-apps" value="mobile-apps" checked={service === 'mobile-apps'} onChange={handleServiceChange} />
-                        <label htmlFor="mobile-apps" className='flex px-2 text-xl'>Mobile Apps</label>
+                        <label htmlFor="mobile-apps" className='flex px-2 text-lg'>Mobile Apps</label>
                     </div>
+                </div>
+
+                {/* email */}
+                <div className='mx-6 my-6 flex items-center justify-center mt-4'>
+                    <input type="email" id="email" placeholder='email:' className='mx-6 my-6 w-[25vw] h-[3vh] text-white border border-white bg-black text-2xl pl-4' value={email} onChange={handleEmailChange} required />
                 </div>
 
                 {/* message */}
