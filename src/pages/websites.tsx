@@ -5,7 +5,8 @@ import '../app/globals.css';
 
 import Header from '@/components/general/header';
 import Footer from '@/components/general/footer';
-import Section1 from '@/components/home/section1';
+import Section1 from '@/components/websites/section1';
+import Section2 from '@/components/websites/section2';
 
 const WebsitesPage: React.FC = () => {
     const [hoveredInfo, setHoveredInfo] = useState("");
@@ -13,7 +14,8 @@ const WebsitesPage: React.FC = () => {
     return (
         <>
           <Header setHoveredInfo={setHoveredInfo} />
-          <Section1 hoveredInfo={hoveredInfo} setHoveredInfo={setHoveredInfo} />
+          <Section1 />
+          <Section2 />
           <Footer />
         </>
     );

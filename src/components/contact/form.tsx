@@ -29,10 +29,10 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
   return (
    <>
         <div className="flex items-center justify-center h-[80vh] w-full">
-            <form onSubmit={handleSubmit} className="items-center jusitfy-center h-[50vh] w-[50vw]">
+            <form onSubmit={handleSubmit} className="flex-col items-center jusitfy-center h-[70vh] w-[50vw]">
 
                 {/* title */}
-                <div className='flex items-center justify-center mt-4 mb-10'>
+                <div className='flex items-center justify-center mt-[5vh] mb-10'>
                     <h1 className='text-4xl'>Bring your idea to life, get in touch now</h1>    
                 </div>
 

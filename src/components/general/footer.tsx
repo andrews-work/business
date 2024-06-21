@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = () => {
+const Section1 = () => {
   return (
     <div className="flex w-full h-[10vh] items-center justify-center px-8">
       <div className="w-[50vw] flex justify-between">
@@ -12,4 +12,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Section1;
