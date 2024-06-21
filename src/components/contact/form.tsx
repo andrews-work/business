@@ -45,23 +45,23 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
                 <div className='flex items-center justify-center mt-4'>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="websites" value="websites" checked={service === 'websites'} onChange={handleServiceChange} />
-                        <label htmlFor="websites" className='flex px-2 text-lg'>Websites</label>
+                        <label htmlFor="websites" className='flex px-1 text-lg'>Websites</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="data-analysis" value="data-analysis" checked={service === 'data-analysis'} onChange={handleServiceChange} />
-                        <label htmlFor="data-analysis" className='flex px-2 text-lg'>Data Analysis</label>
+                        <label htmlFor="data-analysis" className='flex px-1 text-lg'>Data Analysis</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="hosting" value="hosting" checked={service === 'hosting'} onChange={handleServiceChange} />
-                        <label htmlFor="hosting" className='flex px-2 text-lg'>Hosting</label>
+                        <label htmlFor="hosting" className='flex px-1 text-lg'>Hosting</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="web-scraping" value="web-scraping" checked={service === 'web-scraping'} onChange={handleServiceChange} />
-                        <label htmlFor="web-scraping" className='flex px-2 text-lg'>Web Scraping</label>
+                        <label htmlFor="web-scraping" className='flex px-1 text-lg'>Web Scraping</label>
                     </div>
                     <div className='flex mx-4 items-center px-2'>
                         <input type="radio" id="mobile-apps" value="mobile-apps" checked={service === 'mobile-apps'} onChange={handleServiceChange} />
-                        <label htmlFor="mobile-apps" className='flex px-2 text-lg'>Mobile Apps</label>
+                        <label htmlFor="mobile-apps" className='flex px-1 text-lg'>Mobile Apps</label>
                     </div>
                 </div>
 
