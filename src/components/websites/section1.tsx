@@ -11,7 +11,7 @@ const Section1 = () => {
         <div className='flex justify-center items-center w-[90vw] h-[3vh] '>
           <h1 className='text-2xl'>simple</h1>
         </div>
-        <div className='flex items-center justify-center w-[70vw] h-[20vh] border-b'>
+        <div className='flex items-center justify-center w-[70vw] h-[25vh] border-b'>
           {cardData.map((card) => (
             <Card
               key={card.id}
