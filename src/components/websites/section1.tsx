@@ -6,7 +6,7 @@ import Card from './card';
 
 const Section1 = () => {
   return (
-    <div className="flex w-full h-[30vh] items-center justify-center px-8 mt-[10vh]">
+    <div className="flex w-full h-[35vh] items-center justify-center px-8 mt-[10vh]">
       <div className='w-[90vw] h-[30vh] flex flex-col items-center justify-center'>
         <div className='flex justify-center items-center w-[90vw] h-[3vh] '>
           <h1 className='text-2xl'>simple</h1>
