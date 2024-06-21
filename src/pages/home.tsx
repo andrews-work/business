@@ -11,7 +11,9 @@ const HomePage: React.FC = () => {
 
     return (
         <>
+        <div className="abosulte">
           <Header setHoveredInfo={setHoveredInfo} />
+        </div>
           <Section1 hoveredInfo={hoveredInfo} setHoveredInfo={setHoveredInfo} />
           <Footer />
         </>

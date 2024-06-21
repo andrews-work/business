@@ -10,7 +10,7 @@ export const cardData = [
     {
       id: 2,
       iconUrl: "https://img.icons8.com/?size=100&id=104433&format=png&color=FFFFFF",
-      title: "UX/UI",
+      title: "user interface",
       href: "/scraping",
     },
     {

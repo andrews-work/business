@@ -17,7 +17,7 @@ const Header = ({ setHoveredInfo }: HeaderProps) => {
   };
 
   return (
-    <div className="flex w-full h-[10vh] border-b border-gray-900 items-center justify-center px-8">
+    <div className="flex w-full h-[10vh] bg-black border-b border-gray-900 items-center justify-center px-8">
       <div className="w-[90vw] flex justify-between">
         <div>
           <Link href="/" className="no-underline">
